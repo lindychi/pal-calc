@@ -24,6 +24,9 @@ export type PalInfo = {
   rarity: number;
   depth?: number;
   formula?: Formula[];
+  moveSpeed?: number;
+  engName?: string;
+  combiRank?: number;
 };
 
 export type Formula = {

@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import MatchWithRarity from "./components/MatchWithRarity";
+import NextFromExist from "./components/NextFromExist";
 
 function App() {
   return (
     <div className="App">
-      <MatchWithRarity />
+      <NextFromExist />
     </div>
   );
 }

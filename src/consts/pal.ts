@@ -20,6 +20,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Lamball",
+    combiRank: 1470,
   },
   {
     id: "2",
@@ -40,6 +43,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Cattiva",
+    combiRank: 1460,
   },
   {
     id: "3",
@@ -60,6 +66,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Chikipi",
+    combiRank: 1500,
   },
   {
     id: "4",
@@ -80,6 +89,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Lifmunk",
+    combiRank: 1430,
   },
   {
     id: "5",
@@ -100,6 +112,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Foxparks",
+    combiRank: 1400,
   },
   {
     id: "6",
@@ -120,6 +135,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 400,
+    engName: "Fuack",
+    combiRank: 1330,
   },
   {
     id: "7",
@@ -140,6 +158,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 500,
+    engName: "Sparkit",
+    combiRank: 1410,
   },
   {
     id: "8",
@@ -160,6 +181,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 400,
+    engName: "Tanzee",
+    combiRank: 1250,
   },
   {
     id: "9",
@@ -180,6 +204,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 550,
+    engName: "Rooby",
+    combiRank: 1155,
   },
   {
     id: "10",
@@ -200,6 +227,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: "얼음",
     rarity: 1,
+    moveSpeed: 650,
+    engName: "Pengullet",
+    combiRank: 1350,
   },
   {
     id: "11",
@@ -220,6 +250,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: "얼음",
     rarity: 6,
+    moveSpeed: 600,
+    engName: "Penking",
+    combiRank: 520,
   },
   {
     id: "12",
@@ -240,6 +273,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Jolthog",
+    combiRank: 1370,
   },
   {
     id: "12B",
@@ -260,6 +296,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 550,
+    engName: "Jolthog Cryst",
+    combiRank: 1360,
   },
   {
     id: "13",
@@ -280,6 +319,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: "땅",
     rarity: 1,
+    moveSpeed: 400,
+    engName: "Gumoss",
+    combiRank: 1240,
   },
   {
     id: "13B",
@@ -300,6 +342,9 @@ export const palData: PalInfo[] = [
     type1: "",
     type2: undefined,
     rarity: 10,
+    moveSpeed: 400,
+    engName: "Gumoss (Special)",
+    combiRank: 1240,
   },
   {
     id: "14",
@@ -320,6 +365,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 450,
+    engName: "Vixy",
+    combiRank: 1450,
   },
   {
     id: "15",
@@ -340,6 +388,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Hoocrates",
+    combiRank: 1390,
   },
   {
     id: "16",
@@ -360,6 +411,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 400,
+    engName: "Teafant",
+    combiRank: 1490,
   },
   {
     id: "17",
@@ -380,6 +434,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 400,
+    engName: "Depresso",
+    combiRank: 1380,
   },
   {
     id: "18",
@@ -400,6 +457,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 450,
+    engName: "Cremis",
+    combiRank: 1455,
   },
   {
     id: "19",
@@ -420,6 +480,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Daedream",
+    combiRank: 1230,
   },
   {
     id: "20",
@@ -440,6 +503,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 700,
+    engName: "Rushoar",
+    combiRank: 1130,
   },
   {
     id: "21",
@@ -460,6 +526,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 500,
+    engName: "Nox",
+    combiRank: 1180,
   },
   {
     id: "22",
@@ -480,6 +549,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Fuddler",
+    combiRank: 1220,
   },
   {
     id: "23",
@@ -500,6 +572,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Killamari",
+    combiRank: 1290,
   },
   {
     id: "24",
@@ -520,6 +595,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Mau",
+    combiRank: 1480,
   },
   {
     id: "24B",
@@ -540,6 +618,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 550,
+    engName: "Mau Cryst",
+    combiRank: 1440,
   },
   {
     id: "25",
@@ -560,6 +641,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 700,
+    engName: "Celaray",
+    combiRank: 870,
   },
   {
     id: "26",
@@ -580,6 +664,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 950,
+    engName: "Direhowl",
+    combiRank: 1060,
   },
   {
     id: "27",
@@ -600,6 +687,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Tocotoco",
+    combiRank: 1340,
   },
   {
     id: "28",
@@ -620,6 +710,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Flopie",
+    combiRank: 1280,
   },
   {
     id: "29",
@@ -640,6 +733,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 700,
+    engName: "Mozzarina",
+    combiRank: 910,
   },
   {
     id: "30",
@@ -660,6 +756,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Bristla",
+    combiRank: 1320,
   },
   {
     id: "31",
@@ -680,6 +779,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 500,
+    engName: "Gobfin",
+    combiRank: 1090,
   },
   {
     id: "31B",
@@ -700,6 +802,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 500,
+    engName: "Gobfin Ignis",
+    combiRank: 1100,
   },
   {
     id: "32",
@@ -720,6 +825,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 550,
+    engName: "Hangyu",
+    combiRank: 1420,
   },
   {
     id: "32B",
@@ -740,6 +848,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 550,
+    engName: "Hangyu Cryst",
+    combiRank: 1422,
   },
   {
     id: "33",
@@ -760,6 +871,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 700,
+    engName: "Mossanda",
+    combiRank: 430,
   },
   {
     id: "33B",
@@ -780,6 +894,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 700,
+    engName: "Mossanda Lux",
+    combiRank: 390,
   },
   {
     id: "34",
@@ -800,6 +917,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 400,
+    engName: "Woolipop",
+    combiRank: 1190,
   },
   {
     id: "35",
@@ -820,6 +940,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 550,
+    engName: "Caprity",
+    combiRank: 930,
   },
   {
     id: "36",
@@ -840,6 +963,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 600,
+    engName: "Melpaca",
+    combiRank: 890,
   },
   {
     id: "37",
@@ -860,6 +986,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 900,
+    engName: "Eikthyrdeer",
+    combiRank: 920,
   },
   {
     id: "37B",
@@ -880,6 +1009,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 900,
+    engName: "Eikthyrdeer Terra",
+    combiRank: 900,
   },
   {
     id: "38",
@@ -900,6 +1032,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 750,
+    engName: "Nitewing",
+    combiRank: 420,
   },
   {
     id: "39",
@@ -920,6 +1055,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 350,
+    engName: "Ribunny",
+    combiRank: 1310,
   },
   {
     id: "40",
@@ -940,6 +1078,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: "어둠",
     rarity: 4,
+    moveSpeed: 960,
+    engName: "Incineram",
+    combiRank: 590,
   },
   {
     id: "40B",
@@ -960,6 +1101,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 960,
+    engName: "Incineram Noct",
+    combiRank: 580,
   },
   {
     id: "41",
@@ -980,6 +1124,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 700,
+    engName: "Cinnamoth",
+    combiRank: 490,
   },
   {
     id: "42",
@@ -1000,6 +1147,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 800,
+    engName: "Arsox",
+    combiRank: 790,
   },
   {
     id: "43",
@@ -1020,6 +1170,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 600,
+    engName: "Dumud",
+    combiRank: 895,
   },
   {
     id: "44",
@@ -1040,6 +1193,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 1200,
+    engName: "Cawgnito",
+    combiRank: 1080,
   },
   {
     id: "45",
@@ -1060,6 +1216,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 800,
+    engName: "Leezpunk",
+    combiRank: 1120,
   },
   {
     id: "45B",
@@ -1080,6 +1239,9 @@ export const palData: PalInfo[] = [
     type1: "",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 550,
+    engName: "Leezpunk Ignis",
+    combiRank: 1140,
   },
   {
     id: "46",
@@ -1100,6 +1262,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 800,
+    engName: "Loupmoon",
+    combiRank: 950,
   },
   {
     id: "47",
@@ -1120,6 +1285,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 700,
+    engName: "Galeclaw",
+    combiRank: 1030,
   },
   {
     id: "48",
@@ -1140,6 +1308,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 750,
+    engName: "Robinquill",
+    combiRank: 1020,
   },
   {
     id: "48B",
@@ -1160,6 +1331,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: "땅",
     rarity: 6,
+    moveSpeed: 750,
+    engName: "Robinquill Terra",
+    combiRank: 1000,
   },
   {
     id: "49",
@@ -1180,6 +1354,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 720,
+    engName: "Gorirat",
+    combiRank: 1040,
   },
   {
     id: "50",
@@ -1200,6 +1377,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 550,
+    engName: "Beegarde",
+    combiRank: 1070,
   },
   {
     id: "51",
@@ -1220,6 +1400,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 550,
+    engName: "Elizabee",
+    combiRank: 330,
   },
   {
     id: "52",
@@ -1240,6 +1423,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 800,
+    engName: "Grintale",
+    combiRank: 510,
   },
   {
     id: "53",
@@ -1260,6 +1446,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 400,
+    engName: "Swee",
+    combiRank: 1300,
   },
   {
     id: "54",
@@ -1280,6 +1469,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 500,
+    engName: "Sweepa",
+    combiRank: 410,
   },
   {
     id: "55",
@@ -1300,6 +1492,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: "용",
     rarity: 4,
+    moveSpeed: 800,
+    engName: "Chillet",
+    combiRank: 800,
   },
   {
     id: "56",
@@ -1320,6 +1515,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 1000,
+    engName: "Univolt",
+    combiRank: 680,
   },
   {
     id: "57",
@@ -1340,6 +1538,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 750,
+    engName: "Foxcicle",
+    combiRank: 760,
   },
   {
     id: "58",
@@ -1360,6 +1561,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 1100,
+    engName: "Pyrin",
+    combiRank: 360,
   },
   {
     id: "58B",
@@ -1380,6 +1584,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: "어둠",
     rarity: 7,
+    moveSpeed: 1100,
+    engName: "Pyrin Noct",
+    combiRank: 240,
   },
   {
     id: "59",
@@ -1400,6 +1607,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 700,
+    engName: "Reindrix",
+    combiRank: 880,
   },
   {
     id: "60",
@@ -1420,6 +1630,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 1050,
+    engName: "Rayhound",
+    combiRank: 740,
   },
   {
     id: "61",
@@ -1440,6 +1653,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 900,
+    engName: "Kitsun",
+    combiRank: 830,
   },
   {
     id: "62",
@@ -1460,6 +1676,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 550,
+    engName: "Dazzi",
+    combiRank: 1210,
   },
   {
     id: "63",
@@ -1480,6 +1699,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 650,
+    engName: "Lunaris",
+    combiRank: 1110,
   },
   {
     id: "64",
@@ -1500,6 +1722,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: "용",
     rarity: 6,
+    moveSpeed: 700,
+    engName: "Dinossom",
+    combiRank: 820,
   },
   {
     id: "64B",
@@ -1520,6 +1745,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: "용",
     rarity: 7,
+    moveSpeed: 700,
+    engName: "Dinossom Lux",
+    combiRank: 810,
   },
   {
     id: "65",
@@ -1540,6 +1768,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 4,
+    moveSpeed: 650,
+    engName: "Surfent",
+    combiRank: 560,
   },
   {
     id: "65B",
@@ -1560,6 +1791,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 650,
+    engName: "Surfent Terra",
+    combiRank: 550,
   },
   {
     id: "66",
@@ -1580,6 +1814,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 800,
+    engName: "Maraith",
+    combiRank: 1150,
   },
   {
     id: "67",
@@ -1600,6 +1837,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 420,
+    engName: "Digtoise",
+    combiRank: 850,
   },
   {
     id: "68",
@@ -1620,6 +1860,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 550,
+    engName: "Tombat",
+    combiRank: 750,
   },
   {
     id: "69",
@@ -1640,6 +1883,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 5,
+    moveSpeed: 850,
+    engName: "Lovander",
+    combiRank: 940,
   },
   {
     id: "70",
@@ -1660,6 +1906,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 375,
+    engName: "Flambelle",
+    combiRank: 1405,
   },
   {
     id: "71",
@@ -1680,6 +1929,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: "어둠",
     rarity: 4,
+    moveSpeed: 850,
+    engName: "Vanwyrm",
+    combiRank: 660,
   },
   {
     id: "71B",
@@ -1700,6 +1952,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: "어둠",
     rarity: 5,
+    moveSpeed: 850,
+    engName: "Vanwyrm Cryst",
+    combiRank: 620,
   },
   {
     id: "72",
@@ -1720,6 +1975,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 900,
+    engName: "Bushi",
+    combiRank: 640,
   },
   {
     id: "73",
@@ -1740,6 +1998,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 950,
+    engName: "Beakon",
+    combiRank: 220,
   },
   {
     id: "74",
@@ -1760,6 +2021,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 1000,
+    engName: "Ragnahawk",
+    combiRank: 380,
   },
   {
     id: "75",
@@ -1780,6 +2044,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 620,
+    engName: "Katress",
+    combiRank: 700,
   },
   {
     id: "76",
@@ -1800,6 +2067,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 620,
+    engName: "Wixen",
+    combiRank: 1160,
   },
   {
     id: "77",
@@ -1820,6 +2090,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 700,
+    engName: "Verdash",
+    combiRank: 990,
   },
   {
     id: "78",
@@ -1840,6 +2113,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 550,
+    engName: "Vaelet",
+    combiRank: 1050,
   },
   {
     id: "79",
@@ -1860,6 +2136,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 550,
+    engName: "Sibelyx",
+    combiRank: 450,
   },
   {
     id: "80",
@@ -1880,6 +2159,9 @@ export const palData: PalInfo[] = [
     type1: "용",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 800,
+    engName: "Elphidran",
+    combiRank: 540,
   },
   {
     id: "80B",
@@ -1900,6 +2182,9 @@ export const palData: PalInfo[] = [
     type1: "용",
     type2: "물",
     rarity: 8,
+    moveSpeed: 800,
+    engName: "Elphidran Aqua",
+    combiRank: 530,
   },
   {
     id: "81",
@@ -1920,6 +2205,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 1,
+    moveSpeed: 900,
+    engName: "Kelpsea",
+    combiRank: 1260,
   },
   {
     id: "81B",
@@ -1940,6 +2228,9 @@ export const palData: PalInfo[] = [
     type1: "",
     type2: undefined,
     rarity: 2,
+    moveSpeed: 900,
+    engName: "Kelpsea Ignis",
+    combiRank: 1270,
   },
   {
     id: "82",
@@ -1960,6 +2251,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: "용",
     rarity: 7,
+    moveSpeed: 800,
+    engName: "Azurobe",
+    combiRank: 500,
   },
   {
     id: "83",
@@ -1980,6 +2274,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 900,
+    engName: "Cryolinx",
+    combiRank: 130,
   },
   {
     id: "84",
@@ -2000,6 +2297,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 900,
+    engName: "Blazehowl",
+    combiRank: 710,
   },
   {
     id: "84B",
@@ -2020,6 +2320,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: "어둠",
     rarity: 8,
+    moveSpeed: 900,
+    engName: "Blazehowl Noct",
+    combiRank: 670,
   },
   {
     id: "85",
@@ -2040,6 +2343,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: "용",
     rarity: 8,
+    moveSpeed: 800,
+    engName: "Relaxaurus",
+    combiRank: 280,
   },
   {
     id: "85B",
@@ -2060,6 +2366,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: "용",
     rarity: 9,
+    moveSpeed: 800,
+    engName: "Relaxaurus Lux",
+    combiRank: 270,
   },
   {
     id: "86",
@@ -2080,6 +2389,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 500,
+    engName: "Broncherry",
+    combiRank: 860,
   },
   {
     id: "86B",
@@ -2100,6 +2412,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: "풀",
     rarity: 8,
+    moveSpeed: 500,
+    engName: "Broncherry Aqua",
+    combiRank: 840,
   },
   {
     id: "87",
@@ -2120,6 +2435,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 700,
+    engName: "Petallia",
+    combiRank: 780,
   },
   {
     id: "88",
@@ -2140,6 +2458,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: "땅",
     rarity: 6,
+    moveSpeed: 550,
+    engName: "Reptyro",
+    combiRank: 320,
   },
   {
     id: "88B",
@@ -2160,6 +2481,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: "땅",
     rarity: 7,
+    moveSpeed: 550,
+    engName: "Ice Reptyro",
+    combiRank: 230,
   },
   {
     id: "89",
@@ -2180,6 +2504,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 700,
+    engName: "Kingpaca",
+    combiRank: 470,
   },
   {
     id: "89B",
@@ -2200,6 +2527,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 700,
+    engName: "Ice Kingpaca",
+    combiRank: 440,
   },
   {
     id: "90",
@@ -2220,6 +2550,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 600,
+    engName: "Mammorest",
+    combiRank: 300,
   },
   {
     id: "90B",
@@ -2240,6 +2573,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 600,
+    engName: "Mammorest Cryst",
+    combiRank: 290,
   },
   {
     id: "91",
@@ -2260,6 +2596,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 550,
+    engName: "Wumpo",
+    combiRank: 460,
   },
   {
     id: "91B",
@@ -2280,6 +2619,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 550,
+    engName: "Wumpo Botan",
+    combiRank: 480,
   },
   {
     id: "92",
@@ -2300,6 +2642,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: "땅",
     rarity: 8,
+    moveSpeed: 600,
+    engName: "Warsect",
+    combiRank: 340,
   },
   {
     id: "93",
@@ -2320,6 +2665,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 3,
+    moveSpeed: 950,
+    engName: "Fenglope",
+    combiRank: 980,
   },
   {
     id: "94",
@@ -2340,6 +2688,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 6,
+    moveSpeed: 700,
+    engName: "Felbat",
+    combiRank: 1010,
   },
   {
     id: "95",
@@ -2360,6 +2711,9 @@ export const palData: PalInfo[] = [
     type1: "용",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 950,
+    engName: "Quivern",
+    combiRank: 350,
   },
   {
     id: "96",
@@ -2380,6 +2734,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 900,
+    engName: "Blazamut",
+    combiRank: 10,
   },
   {
     id: "97",
@@ -2400,6 +2757,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 7,
+    moveSpeed: 900,
+    engName: "Helzephyr",
+    combiRank: 190,
   },
   {
     id: "98",
@@ -2420,6 +2780,9 @@ export const palData: PalInfo[] = [
     type1: "모름",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 800,
+    engName: "Astegon",
+    combiRank: 150,
   },
   {
     id: "99",
@@ -2440,6 +2803,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: "어둠",
     rarity: 9,
+    moveSpeed: 1200,
+    engName: "Menasting",
+    combiRank: 260,
   },
   {
     id: "100",
@@ -2460,6 +2826,9 @@ export const palData: PalInfo[] = [
     type1: "땅",
     type2: undefined,
     rarity: 10,
+    moveSpeed: 1000,
+    engName: "Anubis",
+    combiRank: 570,
   },
   {
     id: "101",
@@ -2480,6 +2849,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: "용",
     rarity: 8,
+    moveSpeed: 700,
+    engName: "Jormuntide",
+    combiRank: 310,
   },
   {
     id: "101B",
@@ -2500,6 +2872,9 @@ export const palData: PalInfo[] = [
     type1: "",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 700,
+    engName: "Jormuntide Ignis",
+    combiRank: 315,
   },
   {
     id: "102",
@@ -2520,6 +2895,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 1000,
+    engName: "Suzaku",
+    combiRank: 50,
   },
   {
     id: "102B",
@@ -2540,6 +2918,9 @@ export const palData: PalInfo[] = [
     type1: "물",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 1000,
+    engName: "Suzaku Aqua",
+    combiRank: 30,
   },
   {
     id: "103",
@@ -2560,6 +2941,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: undefined,
     rarity: 8,
+    moveSpeed: 550,
+    engName: "Grizzbolt",
+    combiRank: 200,
   },
   {
     id: "104",
@@ -2580,6 +2964,9 @@ export const palData: PalInfo[] = [
     type1: "풀",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 550,
+    engName: "Lyleen",
+    combiRank: 250,
   },
   {
     id: "104B",
@@ -2600,6 +2987,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 10,
+    moveSpeed: 550,
+    engName: "Lyleen Noct",
+    combiRank: 210,
   },
   {
     id: "105",
@@ -2620,6 +3010,9 @@ export const palData: PalInfo[] = [
     type1: "불",
     type2: undefined,
     rarity: 9,
+    moveSpeed: 1200,
+    engName: "Faleris",
+    combiRank: 370,
   },
   {
     id: "106",
@@ -2640,6 +3033,9 @@ export const palData: PalInfo[] = [
     type1: "번개",
     type2: "용",
     rarity: 9,
+    moveSpeed: 1200,
+    engName: "Orserk",
+    combiRank: 140,
   },
   {
     id: "107",
@@ -2660,6 +3056,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 10,
+    moveSpeed: 1000,
+    engName: "Shadowbeak",
+    combiRank: 60,
   },
   {
     id: "108",
@@ -2680,6 +3079,9 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 20,
+    moveSpeed: 1400,
+    engName: "Paladius",
+    combiRank: 80,
   },
   {
     id: "109",
@@ -2700,6 +3102,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 20,
+    moveSpeed: 1600,
+    engName: "Necromus",
+    combiRank: 70,
   },
   {
     id: "110",
@@ -2720,6 +3125,9 @@ export const palData: PalInfo[] = [
     type1: "얼음",
     type2: undefined,
     rarity: 20,
+    moveSpeed: 1400,
+    engName: "Frostallion",
+    combiRank: 120,
   },
   {
     id: "110B",
@@ -2740,6 +3148,9 @@ export const palData: PalInfo[] = [
     type1: "어둠",
     type2: undefined,
     rarity: 20,
+    moveSpeed: 1400,
+    engName: "Frostallion Noct",
+    combiRank: 100,
   },
   {
     id: "111",
@@ -2760,5 +3171,8 @@ export const palData: PalInfo[] = [
     type1: "용",
     type2: undefined,
     rarity: 20,
+    moveSpeed: 3300,
+    engName: "Jetragon",
+    combiRank: 90,
   },
 ];
