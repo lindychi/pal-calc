@@ -2665,7 +2665,7 @@ export const palData: PalInfo[] = [
     type1: "무",
     type2: undefined,
     rarity: 3,
-    moveSpeed: 950,
+    moveSpeed: 950 * 1.5,
     engName: "Fenglope",
     combiRank: 980,
   },
