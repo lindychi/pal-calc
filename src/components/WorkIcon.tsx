@@ -17,8 +17,6 @@ type Props = { type: string };
 export default function WorkIcon({ type }: Props) {
   const getSource = (type: string) => {
     switch (type) {
-      case "collection":
-        return collection;
       case "handCraft":
         return handCraft;
       case "mining":

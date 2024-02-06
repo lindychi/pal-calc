@@ -1,4 +1,3 @@
-import { passives } from "./passives";
 export type ActualPal = {
   name: string;
   gender: string;

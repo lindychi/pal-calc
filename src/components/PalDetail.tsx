@@ -32,7 +32,7 @@ export default function PalDetail({ pal }: Props) {
     });
 
     setWorkList(workList);
-  }, []);
+  }, [pal]);
 
   return (
     <div className="flex flex-col items-center min-w-[200px]">

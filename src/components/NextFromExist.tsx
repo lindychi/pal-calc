@@ -1,14 +1,16 @@
 import React, { useEffect } from "react";
+
 import { ActualPal, sampleData } from "../consts/sample";
 import { palData } from "../consts/pal";
-import { PalInfo } from "../types/pal";
 import { breedingFormula } from "../consts/breedingFormula";
+import { workOption } from "../consts/work";
+
+import { PalInfo } from "../types/pal";
+
 import PalTableColumnLine from "./PalTableColumnLine";
+import PalDetail from "./PalDetail";
 
 import { CgClose } from "react-icons/cg";
-import WorkIcon from "./WorkIcon";
-import { workOption } from "../consts/work";
-import PalDetail from "./PalDetail";
 
 export type CombinePalData = Omit<ActualPal, "gender"> &
   Omit<PalInfo, "id"> & {
@@ -22,7 +24,7 @@ export type CombinePalData = Omit<ActualPal, "gender"> &
 
 type Props = {};
 
-export default function NextFromExist({}: Props) {
+export default function NextFromExist(props: Props) {
   const defaultList = sampleData.map((item) => {
     const targetPalData: PalInfo =
       palData.find((pal) => pal.name === item.name) ?? ({} as PalInfo);
