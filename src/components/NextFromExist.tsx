@@ -5,6 +5,11 @@ import { PalInfo } from "../types/pal";
 import { breedingFormula } from "../consts/breedingFormula";
 import PalTableColumnLine from "./PalTableColumnLine";
 
+import { CgClose } from "react-icons/cg";
+import WorkIcon from "./WorkIcon";
+import { workOption } from "../consts/work";
+import PalDetail from "./PalDetail";
+
 export type CombinePalData = Omit<ActualPal, "gender"> &
   Omit<PalInfo, "id"> & {
     depth: number;
@@ -29,23 +34,10 @@ export default function NextFromExist({}: Props) {
     } as CombinePalData;
   });
   const [targetCombineCount, setTargetCombineCount] = React.useState<number>(1);
-  const selectOption = [
-    { value: "moveSpeed", label: "속도(탑승)" },
-    { value: "handCraft", label: "수작업" },
-    { value: "mining", label: "채굴" },
-    { value: "watering", label: "관개" },
-    { value: "transport", label: "운반" },
-    { value: "collection", label: "채집" },
-    { value: "seeding", label: "파종" },
-    { value: "emitFlame", label: "불 피우기" },
-    { value: "deforest", label: "벌목" },
-    { value: "generateElectricity", label: "발전" },
-    { value: "cool", label: "냉각" },
-    { value: "productMedicine", label: "제약" },
-  ];
 
   const [combineList, setCombineList] = React.useState<CombinePalData[]>([]);
   const [calculateDepth, setCalculateDepth] = React.useState<number>(0);
+  const [selectedPal, setSelectedPal] = React.useState<CombinePalData>();
 
   const matchDepth = (defaultList: CombinePalData[]) => {
     const newCombineList: CombinePalData[] = [
@@ -101,8 +93,8 @@ export default function NextFromExist({}: Props) {
           ),
           id: newCombineList.length + 1,
           uniqueId: resultPalData.id,
-          father: malePal,
-          mother: femalePal,
+          father: { ...malePal, uniqueId: malePalData?.id },
+          mother: { ...femalePal, uniqueId: femalePalData?.id },
         } as CombinePalData);
       });
     });
@@ -150,14 +142,33 @@ export default function NextFromExist({}: Props) {
             </div>
           ))}
         </div> */}
-        {selectOption.map((option) => (
+        {workOption.map((option) => (
           <PalTableColumnLine
+            key={option.value}
             combineList={combineList}
             keyValue={option.value}
             keyLabel={option.label}
+            onClick={(pal) => {
+              setSelectedPal(pal);
+            }}
           />
         ))}
       </div>
+
+      {selectedPal && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 z-50 flex justify-center items-center">
+          <div className="bg-white p-12 rounded-md relative flex flex-col items-center gap-2">
+            <PalDetail pal={selectedPal} />
+
+            <div
+              className="absolute top-3 right-3 text-3xl"
+              onClick={() => setSelectedPal(undefined)}
+            >
+              <CgClose />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

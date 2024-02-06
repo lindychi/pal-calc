@@ -8,12 +8,14 @@ type Props = {
   combineList: CombinePalData[];
   keyValue: string;
   keyLabel: string;
+  onClick: (pal: CombinePalData) => void;
 };
 
 export default function PalTableColumnLine({
   combineList,
   keyValue,
   keyLabel,
+  onClick,
 }: Props) {
   return (
     <div className="w-[200px]">
@@ -30,7 +32,12 @@ export default function PalTableColumnLine({
         })
         .slice(0, 10)
         .map((pal, index) => (
-          <PalTableColumn key={pal.id} pal={pal} keyValue={keyValue} />
+          <PalTableColumn
+            key={pal.id}
+            pal={pal}
+            keyValue={keyValue}
+            onClick={onClick}
+          />
         ))}
     </div>
   );

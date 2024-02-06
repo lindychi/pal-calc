@@ -4,13 +4,18 @@ import { getPalWeight } from "../libs/weight";
 
 import { CombinePalData } from "./NextFromExist";
 
-type Props = { pal: CombinePalData; keyValue: string };
+type Props = {
+  pal: CombinePalData;
+  keyValue: string;
+  onClick: (pal: CombinePalData) => void;
+};
 
-export default function PalTableColumn({ pal, keyValue }: Props) {
+export default function PalTableColumn({ pal, keyValue, onClick }: Props) {
   return (
     <div
       key={pal.id}
       className="flex flex-col items-center border rounded-lg p-2 gap-2"
+      onClick={() => onClick(pal)}
     >
       <img
         src={`/palicon/${pal.uniqueId}.png`}
